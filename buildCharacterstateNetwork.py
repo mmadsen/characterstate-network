@@ -252,15 +252,15 @@ class continuityAnalysis():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Conduct a continuity analysis')
-    parser.add_argument('--debug', '-d', default=None, help='Sets the DEBUG flag for massive amounts of annotated output.')
+    #parser.add_argument('--debug', '-d', default=None, help='Sets the DEBUG flag for massive amounts of annotated output.')
     parser.add_argument('--inputfile','-f', required=True,
                         help="The file to be analyzed (.txt file) ")
     parser.add_argument('--outputdirectory', '-o', default=".", help="directory in which output files should be written.")
-    parser.add_argument('--separator','-s', default="tab",
-                    help="The type of separator between characters (space, tab, none) ")
-    parser.add_argument('--missing','-m',default=None, help='What to do with missing values (?) (e.g., estimate, none)')
-    parser.add_argument('--similarity','-si',default="similarity", help="Use similarity or dissimlarity")
-    parser.add_argument('--header','-hd', default=None, help='Whether or not there is a header (None, Yes)')
+    #parser.add_argument('--separator','-s', default="tab",
+                    #help="The type of separator between characters (space, tab, none) ")
+    #parser.add_argument('--missing','-m',default=None, help='What to do with missing values (?) (e.g., estimate, none)')
+    #parser.add_argument('--similarity','-si',default="similarity", help="Use similarity or dissimlarity")
+    #parser.add_argument('--header','-hd', default=None, help='Whether or not there is a header (None, Yes)')
 
     args={}
     try:
